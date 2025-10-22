@@ -20,8 +20,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "I serve burnt Games",
-    description: "And its temporary, cuz I'm leveling up",
+    title: "Quantum Computing",
+    description: "May the qubits be with us.",
     className: "lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -50,33 +50,33 @@ export const projects = [
   {
     id: 1,
     src: '/Spikey.jpg',
-    title: "Procedurally Generated Planet",
-    category: "Built a planet, but with spikes... yikes!",
-    content: "Planets are fun. Seriously, they’re some of the coolest things in the Universe — and in video games. Big shoutout to games like Outer Wilds, No Man's Sky, and tools like SpaceEngine and Universe Sandbox, which let you appreciate the intricacies of planetary design. So, I attempted, at first as a rookie, to generate a ball with a height-map. Next, I tried to generate a planet where you can adjust the radius, color, surface texture and noise. This noise handling is what makes the planet spikey. These are scientifically not possible but wouldn't our universe be super cool with them? Anyways, currently I'm trying to put my planets in an orbit and hope they don’t just float aimlessly around the void. NASA's previous years Space Apps Challenge has great resources on the Kepler's Laws and generation of orbits. Feel free to check those out if you wanna cook your very own playthings. Also a big thank you to SebLague Tutorials. Great teacher, inspiring coder, hats off."
-  },
-  {
-    id: 2,
-    src: '/Artemis.jpg',
-    title: "Artemis Galactic Games",
-    category: "NASA Space Apps Challenge",
-    content: 'Joint Collaboration on a Challenge to create something fun for the People of Space. There are multiple segments which includes: games, letters, and a Hebron Match'
+    title: "Intellegence that's Artificial",
+    category: "Machine that's learning",
+    content: "Built and trained models for logistic regression and linear regression, applying them to real-world datasets. Analyzed data patterns and implemented predictive algorithms using Python’s scikit-learn library. Exploring Deep Learning and Neural Networks like CNN, including the functionalities of Large Language Models and fine tuning."
   },
   {
     id: 3,
-    src: '/logo.jpg',
-    title: "LOGOs & Posters ",
-    category: "Human generated art over AI any day",
-    content: 'Been designing for 6+ years. Was a part of various Clubs as an Illustrator and created posters and logos. Few are just personal projects. And lastly, one art here is just burnt, as I cooked it when I started using illustrators for the first time, so... kindly ignore the art but do savour the theme.'
-  },
-  {
-    id: 4,
-    src: '/story.jpg',
-    title: "Interact With the Game",
-    category: "Told ya...burnt games",
-    content: 'Ahh, there you go. My Phaser projects are not phasing that much, but I love a game that tells a story.'
+    src: '/Artemis.jpg',
+    title: "Artemis Galactic Games",
+    category: "NASA Space Apps Challenge",
+    content: 'Joint Collaboration with space enthusiasts across the globe on a Challenge to create something fun for the People of Space. There are multiple segments of project that we created which includes: games, letters, and a Hebron Match.
   },
   {
     id: 5,
+    src: '/logo.jpg',
+    title: "LOGOs & Posters ",
+    category: "Human generated art over AI any day",
+    content: 'Been designing for 6+ years. Was a part of various Clubs as an Illustrator and created posters and logos.
+  },
+  {
+    id: 2,
+    src: '/story.jpg',
+    title: "Shor's Algorithm for semiprime numbers",
+    category: "Project for MIT iQuHACK 2025",
+    content: "If your job's to figure out the two secret prime-number ingredients that were multiplied together to create one massive cake. A classical computer would have to taste and guess the ingredients one by one in a long-painstaking process. Shor's algorithm uses a QC as a parallel food processor. It places all the possible ingredients in a state of quantum superposition; like having the flavor of every possible ingredient at once. Our team worked on the implementation of Shor's Algorithm for factoring semiprime numbers using the Quantum Rings Simulator. Our goal is to leverage quantum computation to factor numbers of increasing bit sizes while demonstrating the universality of Shor’s algorithm."
+  },
+  {
+    id: 4,
     src: '/Vidsplainer.jpg',
     title: "Vidsplainers",
     category: "Understand Confusing stuff",
